@@ -45,12 +45,7 @@ public class CadastroClientV2 {
 
             while (true) {
                 // Apresentar um menu com as opções: L – Listar,  X – Finalizar, E – Entrada, S – Saída
-                System.out.println("Opções:");
-                System.out.println("L - Listar");
-                System.out.println("X - Finalizar");
-                System.out.println("E - Entrada");
-                System.out.println("S - Saída");
-                System.out.print("Escolha uma opção: ");
+                System.out.println("L - Listar | X - Finalizar | E - Entrada | S - Saída");
 
                 // Receber o comando a partir do teclado
                 String command = reader.readLine();
